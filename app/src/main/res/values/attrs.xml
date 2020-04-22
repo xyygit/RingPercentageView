@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PickerView">
+
+        <attr name="isLoop" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="RingPercentageView">
+        <!--圆环宽度-->
+        <attr name="ring_width" format="dimension" />
+        <!--圆环颜色-->
+        <attr name="ring_color" format="color" />
+        <!--进度圆环开始颜色-->
+        <attr name="progress_ring_start_color" format="color" />
+        <!--进度圆环结束颜色-->
+        <attr name="progress_ring_end_color" format="color" />
+        <!--百分比文本颜色-->
+        <attr name="text_color" format="color" />
+        <!--百分比文本大小-->
+        <attr name="text_size" format="integer" />
+    </declare-styleable>
+</resources>
